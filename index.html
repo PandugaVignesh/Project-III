@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- displays site properly based on user's device -->
+
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link rel="stylesheet" href="styles/nav.css">
+	<link rel="stylesheet" href="styles/body.css">
+	<link rel="stylesheet" href="styles/mediaquerie.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+	<title>Formal Footwear</title>
+	<style>
+		     /* Additional styles can be added here if needed */
+			 .brand h1 {
+	font-size: 3rem;
+	text-transform: uppercase;
+	color:rgb(255, 160, 0);
+	align-items: center;
+	text-align: center;
+}
+.brand h1 span {
+	color: crimson;
+}
+  
+	</style>
+</head>
+
+<body>
+	<div id="big-shadow"></div>
+	<div id="closing"><img style="width: 100%;" src="images/icon-close.svg" alt="close"></div>
+	<div id="center-image"></div>
+	<header>
+		<div class="topnav">
+			<div class="brand">
+				<h1>ClassicSole</h1>
+			</div>
+			<a class="nav" href="#Collections">Collections</a>
+			<a class="nav" href="#Men">Men</a>
+			<a class="nav" href="#Women">Women</a>
+			<a class="nav" href="#About">About</a>
+			<a class="nav" href="#Contact">Contact</a>
+			<img class="right-navs" src="images/image-avatar.png" alt="avatar">
+			<div class="right-nav"><div id="cart-notif"></div><img id="cart" src="images/icon-cart.svg" alt="cart"></div>
+		</div>
+	</header>
+	<hr>
+	<div id="info-empty"><p style='display: inline;'>CART</p><div id='close'>X</div><hr><p>EMPTY CART</p><button id='button-checkout'>CHECKOUT</button></div>
+	<div id="info"><p style='display: inline;'>CART</p><div id='closed'>X</div><hr><div><img id='image-cart' src='images/image-product-1.jpg' alt='product'><p id="counts">Fall Limited Edition Sneakers x </p></div><p id="pricing" style='font-size: 20px; font-weight: 900'></p><button id='button-checkout'>CHECKOUT</button></div>
+	<div class="big-container">
+		<div class="container1">
+			<img id="first-image" src="images/image-product-1.jpg" alt="product">
+				<ul id="list" >
+					<img class="small-images" id="small-images1" src="images/image-product-1.jpg" alt="product">
+					<img class="small-images" id="small-images2" src="images/image-product-2-thumbnail.jpg" alt="product">
+					<img class="small-images" id="small-images3" src="images/image-product-3-thumbnail.jpg" alt="product">
+					<img class="small-images" id="small-images4" src="images/image-product-4.jpg" alt="product">
+				</ul>
+		</div>
+		<div class="container2">
+			<div id="Company-title">Shoe Company</div>
+			<div id="product-title">Formal Limited Edition<br> Shoes</div>
+			<div id="description">Experience timeless elegance and comfort with ClassicSole Formal Shoes. Crafted from premium full-grain leather, these shoes feature cushioned insoles, making them perfect for any formal occasion. Elevate your style with ClassicSole.
+
+
+			</div>
+			<div id="price">₹999</div><div id="discount">33%</div>
+			<div id="old-price">₹1500</div>
+			<div id="lower-box">
+				<div id="selector">
+					<div id="left" class="sides">-</div>
+					<div id="middle">0</div>
+					<div id="right" class="sides">+</div>
+				</div>
+				<div><button id="button">🛒 Add To Cart</button></div>
+			</div>
+		</div>
+	</div>
+
+	</div>
+	<script src="js/app.js"></script>
+	<script src="js/smallimages.js"></script>
+</body>
+
+</html>

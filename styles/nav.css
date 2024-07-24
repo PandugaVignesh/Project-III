@@ -1,0 +1,139 @@
+body {
+	font-family: 'Barlow', sans-serif;
+}
+
+.topnav {
+	font-family: 'Barlow', sans-serif;
+    background-color: transparent;
+    overflow: hidden;
+	margin-top: 30px;
+  }
+
+.topnav a {
+    float: left;
+	margin-left: 30px;
+    color: black;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+	transition: 0.4s;
+	color: gray;
+}
+
+.nav {
+	margin-top: 10px;
+}
+
+.nav:hover {
+	border-bottom: 4px solid orange;
+	color: black;
+}
+
+.active {
+	float: left;
+	padding: 30px;
+}
+
+.right-nav {
+	float: right;
+	width: 50px;
+	margin-top: 20px;
+}
+
+.right-navs {
+	float: right;
+	width: 60px;
+}
+
+.right-navs:hover {
+	border: 2.8px solid orange;
+	border-radius: 35px;
+	cursor: pointer;
+}
+
+#cart-notif {
+	color: white;
+	width: 19px;
+	height: 15px;
+	text-align: center;
+	border-radius: 15px;
+}
+
+#cart {
+	cursor: pointer;
+}
+
+#image-cart {
+	width: 15%;
+	border-radius: 8px;
+}
+
+#button-checkout {
+	cursor: pointer;
+	background-color: hsl(26, 100%, 55%);
+	text-decoration: none;
+	border: none;
+	color: white;
+	border-radius: 5px;
+	width: 250px;
+	height: 40px;
+	font-size: 20px;
+}
+
+#button-checkout:hover {
+	background-color: #ffba00;
+	transition: 1s;
+	box-shadow: 2px 2px #ffcf4d;
+}
+
+#closed {
+	display: inline;
+	float: right;
+	background-color: hsl(26, 100%, 55%);
+	width: 5%;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+#closed:hover {
+	background-color: #ffba00;
+	transition: 1s;
+	box-shadow: 2px 2px #ffcf4d;
+}
+
+#close {
+	display: inline;
+	float: right;
+	background-color: hsl(26, 100%, 55%);
+	width: 5%;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+#close:hover {
+	background-color: #ffba00;
+	transition: 1s;
+	box-shadow: 2px 2px #ffcf4d;
+}
+
+#info-empty {
+	position: relative;
+	display: none;
+	float: right;
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	height: 130px;
+	width: 300px;
+}
+
+#info {
+	display: none;
+	float: right;
+	border-radius: 10px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	height: 250px;
+	width: 310px;
+}
